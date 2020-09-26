@@ -1,28 +1,14 @@
-Package: com.supermamon.newpackage
-Version: 2.0.0-1
-Section: Tweaks
-Maintainer: Reposi3 <reposithree@gmail.com>
-Depends: firmware (>7.0), mobilesubstrate
+Package: com.filippogiombi.ifile
+Name: iFile
+Version: 1.0
 Architecture: iphoneos-arm
-Filename: ./debs/com.supermamon.newpackage_2.0.0-1_iphoneos-arm.deb
-Size: 854
-MD5sum: 85a01c41aaaa72b48b08d9d0a67f3016
-Description: This is a sample new package. Firmware should be greater than 7.0
-Name: New Package
-Author: Reposi3 <reposithree@gmail.com>
-Depiction: https://supermamon.github.io/Reposi3/depictions/?p=com.supermamon.newpackage
-
-Package: com.supermamon.oldpackage
-Version: 1.0.0-1
-Section: Tweaks
-Maintainer: Reposi3 <reposithree@gmail.com>
-Depends: firmware (<7.0)
-Architecture: iphoneos-arm
-Filename: ./debs/com.supermamon.oldpackage_1.0.0-1_iphoneos-arm.deb
-Size: 860
-MD5sum: 8c606f0c05217aa2a20949091fe516f0
-Description: This is a sample old package. Firmware should be lower than 7.0
-Name: Old Package
-Author: Reposi3 <reposithree@gmail.com>
-Depiction: https://supermamon.github.io/Reposi3/depictions/?p=com.supermamon.oldpackage
-
+Description: ifile file manager for ios 5-12
+Maintainer: Filippo <filippo@giombi.it>
+Author: Filippo <filippo@giombi.it>
+Section: tweaks
+Depends: 
+Filename: debs/com.icrackyourapple.ifilegiombi_2.2.0-1_iphoneos-arm.deb
+Size: 9524
+MD5sum: 88766f339cc7b150e356331e4594db7b
+SHA1: c9fac852cadc6c186ffad3961044f5413682fb21
+SHA256: 992ea26ce8f4ecb4c3e5c13123b80e81d6a8550e8a5250c91c5a2d5b352f323d
